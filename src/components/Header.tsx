@@ -38,7 +38,7 @@ export default function Header({
 
           {/* Category Filter */}
           <div className="flex gap-2 flex-wrap">
-            {categories.map((category) => (
+            {categories.filter(Boolean).map((category) => (
               <button
                 key={category}
                 onClick={() => onFilterChange(category)}
