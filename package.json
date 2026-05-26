@@ -1,0 +1,19 @@
+{
+  "name": "taza-direct",
+  "version": "1.0.0",
+  "description": "Taza App",
+  "type": "module",
+  "scripts": {
+    "dev": "bolt.diy dev",
+    "build": "bolt.diy build",
+    "preview": "bolt.diy preview",
+    "start": "bolt.diy start"
+  },
+  "dependencies": {
+    "bolt.diy": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
